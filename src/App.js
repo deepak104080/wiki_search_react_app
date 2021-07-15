@@ -75,7 +75,7 @@ function App() {
             {
               wikiLinkTexts && wikiLinkTexts.map((item, index) => 
                 <>
-                <a href={wikiLinks[index]} target="_blank">{item}</a>
+                <a href={wikiLinks[index]} target="_blank" rel="noreferrer">{item}</a>
                 <br/>
                 </>
               )
